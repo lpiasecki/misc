@@ -16,7 +16,8 @@ sudo apt update
 # install packages
 sudo apt -y install \
   google-chrome-stable \
-  openvpn
+  openvpn \
+  tmux
 
 # download nordvpn configuration files for openvpn
 mkdir nordvpn
