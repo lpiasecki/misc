@@ -3,6 +3,10 @@
 # change cwd to $HOME
 cd 
 
+# keyboard settings
+xsetkbmap pl
+xset r rate 200 100
+
 # configure chrome repository
 cat << EOD | sudo tee /etc/apt/sources.list.d/google-chrome.list
 deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
