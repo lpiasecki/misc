@@ -14,8 +14,9 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 sudo apt update
 
 # install packages
-sudo apt -y install google-chrome-stable
-sudo apt -y install openvpn
+sudo apt -y install \
+  google-chrome-stable \
+  openvpn
 
 # download nordvpn configuration files for openvpn
 mkdir nordvpn
