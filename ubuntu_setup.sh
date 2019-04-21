@@ -19,9 +19,11 @@ sudo apt update
 
 # install packages
 sudo apt -y install \
+  emacs25 \ 
   google-chrome-stable \
   openvpn \
-  tmux
+  tmux \
+  whois
 
 # download nordvpn configuration files for openvpn
 mkdir nordvpn
