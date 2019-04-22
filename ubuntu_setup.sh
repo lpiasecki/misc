@@ -7,6 +7,9 @@ cd
 xsetkbmap pl
 xset r rate 200 100
 
+# enable Universe repository
+sudo add-apt-repository universe
+
 # configure chrome repository
 cat << EOD | sudo tee /etc/apt/sources.list.d/google-chrome.list
 deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main
