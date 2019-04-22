@@ -4,7 +4,7 @@
 cd 
 
 # keyboard settings
-xsetkbmap pl
+setxkbmap pl
 xset r rate 200 100
 
 # enable Universe repository
