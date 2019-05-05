@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # change cwd to $HOME
 cd 
