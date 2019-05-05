@@ -21,12 +21,7 @@ wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key ad
 sudo apt update
 
 # install packages
-sudo apt -y install \
-  emacs25 \ 
-  google-chrome-stable \
-  openvpn \
-  tmux \
-  whois
+sudo apt -y install emacs25 google-chrome-stable openvpn tmux whois
 
 # download nordvpn configuration files for openvpn
 mkdir nordvpn
